@@ -55,7 +55,7 @@ li a:hover {
 }
 
 .box-about{
-    width: 90%;
+    width: 91%;
     background-color: #d3d3d3;
     outline-style: solid;
     outline-color: black;
@@ -108,6 +108,10 @@ border-bottom-width: 25px;
 text-align: center;
 }
 
+#member-class{
+  text-align: left;
+}
+
 p{
   font-family:sans-serif;
   font-size: 17px;
@@ -118,6 +122,15 @@ p{
   font-family:sans-serif;
   text-align: center;
   margin-top: 15px;
+}
+
+#board-item{
+  font-size: 17px;
+  font-family:sans-serif;
+  text-align: left;
+  margin-top: 15px;
+  margin-left: 100px;
+  font-style: italic;
 }
 
 #about-us{
