@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Donation Form</title>
+  <meta charset=“utf-8”>
+  <meta http-equiv=“X-UA-Compatible” content=“IE=edge”>
+  <meta name=“viewport” content=“width=device-width, initial-scale=1”>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Prata" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+
+
+<body>
+  <div id="header">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="board.html">Board</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="artists.html">Artists</a></li>
+        <li><a href="volunteers.html">Volunteers</a></li>
+        <li id="active-page" style="float:right"><a href="donate.html">Donate</a></li>
+    </ul>
+  </div id="header">
+
+<div class="container">
+  <h2>Donation Form</h2>
+  <form class="form-horizontal" action="/action_page.php">
+  	<h4> Your Donation</h4>
+    <div class="form-group">
+    <button type="button" class="btn btn-default">$10</button>
+    <button type="button" class="btn btn-default">$30</button>
+    <button type="button" class="btn btn-default">$50</button>
+    <button type="button" class="btn btn-default">$100</button>
+    <button type="button" class="btn btn-default">$Other</button>
+    </div>
+
+    <h4>Your Billing Information</h4>
+    <div class="form-group">
+      <input type="first name" class="form-control" id="first name" placeholder="First Name" name="first name">
+    </div>
+
+    <div class="form-group">
+      <input type="last name" class="form-control" id="last name" placeholder="Last Name" name="last name">
+    </div>
+
+    <div class="form-group">
+      <input type="address" class="form-control" id="address" placeholder="Address 1" name="address">
+    </div>
+
+    <div class="form-group">
+      <input type="address" class="form-control" id="address" placeholder="Address 2" name="address">
+    </div>
+
+    <div class="form-group">
+      <input type="city" class="form-control" id="city" placeholder="City" name="city">
+    </div>
+
+    <div class="form-group">
+      <input type="state" class="form-control" id="state" placeholder="State/Providence" name="state">
+    </div>
+
+    <div class="form-group">
+      <input type="zip" class="form-control" id="zip" placeholder="Zip/Postal Code" name="zip">
+    </div>
+
+    <div class="form-group">
+      <input type="country" class="form-control" id="country" placeholder="Country" name="country">
+    </div>
+
+    <div class="form-group">
+      <input type="email" class="form-control" id="email" placeholder="Email Address" name="email">
+    </div>
+
+
+    <h4>Your Payment Information</h4>
+    <div class="form-group">
+      <input type="card" class="form-control" id="card" placeholder="Card Number" name="card">
+    </div>
+
+
+    <div class="form-group">
+      <input type="exp date" class="form-control" id="exp date" placeholder="Expiration Date (XX/XX)" name="exp date">
+    </div>
+
+    <div class="form-group">
+      <input type="cvv" class="form-control" id="cvv" placeholder="CVV Code" name="cvv">
+    </div>
+
+
+    <button type="submit" class="btn btn-default">Submit</button>
+    <button type="submit" class="btn btn-default">PayPal</button>
+  </form>
+</div>
+
+</body>
+</html>
