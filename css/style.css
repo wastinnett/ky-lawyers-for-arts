@@ -47,6 +47,7 @@ li a:hover {
   background-color: white;
 }
 
+
 #content{
   margin-top: 100px;
   margin-left:210px;
@@ -61,6 +62,17 @@ li a:hover {
     outline-color: black;
 }
 
+.box-test{
+    width: 91%;
+    background-color: #d3d3d3;
+    margin-top: 20px;
+}
+
+
+.containerapp{
+  width: 85%;
+  margin-left: 65px;
+}
 
 /*--------------------------------*/
 h1{
@@ -111,6 +123,24 @@ text-align: center;
 #member-class{
   text-align: left;
 }
+
+
+
+h5{font-family: 'Prata', serif;
+font-weight: bold;
+color: black;
+font-size: 35px;
+padding-left: 20px;
+padding-top: 5px;
+border-bottom-width: 25px;
+text-align: left;
+font-style: italic;
+}
+
+#test-class{
+  text-align: right;
+}
+
 
 p{
   font-family:sans-serif;
