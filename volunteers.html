@@ -29,82 +29,92 @@
   <p>Thank you for your interest in joining the Kentucky Lawyers for the Arts panel of volunteer lawyers.  KyLA provides legal assistance and education to low-income artists of all disciplines and emerging non-profit arts organizations located throughout Kentucky. KyLA’s mission is to improve the ability of artists to create productive and effective relationships with other artists, lawyers, and the business entities on which they depend by educating them about their legal rights and responsibilities. KyLA’s volunteer lawyers provide services to artists of all disciplines who could not otherwise afford legal representation.  KyLA requires all of its volunteer lawyers to be covered by professional liability insurance and to be in good standing with the Kentucky Bar Association.  We sincerely appreciate your willingness to volunteer your time and expertise.
 
     <em>Please note that all information will be kept strictly CONFIDENTIAL and used only to make contemplated pro bono referrals.</em></p>
-  <form class="form-horizontal" action="/action_page.php">
-    <div class="form-group">
-      <input type="first name" class="form-control" id="first name" placeholder="First Name" name="first name">
-    </div>
+    <form class="form-horizontal">
+      <div>
+        <label for="fname">First Name</label>
+        <input type="text" class="form-control" id="fname" placeholder="First Name" name="first name">
 
-    <div class="form-group">
-      <input type="last name" class="form-control" id="last name" placeholder="Last Name" name="last name">
-    </div>
+        <label for="lname">Last Name</label>
+        <input type="text" class="form-control" id="lname" placeholder="Last Name" name="last name">
 
-    <div class="form-group">
-      <input type="firm name" class="form-control" id="firm name" placeholder="Firm/Employeer Name" name="firm name">
-    </div>
+        <label for="oname">Firm/Employer Name</label>
+        <input type="text" class="form-control" id="oname" placeholder="Firm/Employer Name" name="org name">
 
-    <div class="form-group">
-      <input type="address" class="form-control" id="address" placeholder="Address 1" name="address">
-    </div>
-
-    <div class="form-group">
-      <input type="address" class="form-control" id="address" placeholder="Address 2" name="address">
-    </div>
-
-    <div class="form-group">
-      <input type="city" class="form-control" id="city" placeholder="City" name="city">
-    </div>
-
-    <div class="form-group">
-      <input type="state" class="form-control" id="state" placeholder="State/Providence" name="state">
-    </div>
-
-    <div class="form-group">
-      <input type="zip" class="form-control" id="zip" placeholder="Zip/Postal Code" name="zip">
-    </div>
-
-    <div class="form-group">
-      <input type="country" class="form-control" id="country" placeholder="Country" name="country">
-    </div>
-
-    <div class="form-group">
-      <input type="email" class="form-control" id="email" placeholder="Email Address" name="email">
-    </div>
-
-    <div class="form-group">
-      <input type="practice" class="form-control" id="practice" placeholder="Please list your practice areas" name="practice">
-    </div>
+        <label for="address">Address</label>
+        <input type="text" class="form-control" id="address" placeholder="Address 1" name="address">
 
 
-    <div class="form-group">
-      <input type="bar" class="form-control" id="bar" placeholder="Kentucky Bar Number" name="bar">
-    </div>
+        <label for="address2">Address</label>
+        <input type="text" class="form-control" id="address2" placeholder="Address 2" name="address">
 
-    <div class="form-group">
-      <input type="yes" class="form-control" id="yes" placeholder="Are you in good standing with the Kentucky Bar Association and currently licensed to practice in Kentucky? " name="yes">
-    </div>
 
-    <div class="form-group">
-      <input type="purpose" class="form-control" id="purpose" placeholder="Please describe your artistic activities or purpose" name="purpose">
-    </div>
+        <label for="city">City</label>
+        <input type="text" class="form-control" id="city" placeholder="City" name="city">
 
-    <div class="form-group">
-      <input type="purpose" class="form-control" id="purpose" placeholder="If you are applying to be referred to a specific project/referral request, please list it here:" name="purpose">
-    </div>
+        <label for="state">State</label>
+        <input type="text" class="form-control" id="state" placeholder="State/Providence" name="state">
 
-    <div class="form-group">
-      <input type="purpose" class="form-control" id="purpose" placeholder="Do you have up-to-date malpractice liability insurance? " name="purpose">
-    </div>
 
-    <div class="form-group">
-      <input type="purpose" class="form-control" id="purpose" placeholder="Would you be interested in writing for future KyLA publications?" name="purpose">
-    </div>
+        <label for="zip">Zip/Postal Code</label>
+        <input type="text" class="form-control" id="zip" placeholder="Zip/Postal Code" name="zip">
 
-    <div class="form-group">
-      <input type="purpose" class="form-control" id="purpose" placeholder="Would you be interested in presenting at KyLA seminars? " name="purpose">
-    </div>
 
-    <button type="submit" class="btn btn-default">Submit</button>
-  </form>
+        <label for="country">Country</label>
+        <input type="text" class="form-control" id="country" placeholder="Country" name="country">
+
+
+        <label for="phone">Phone Number</label>
+        <input type="text" class="form-control" id="phone" placeholder="Phone Number" name="phone">
+
+
+        <label for="email">Email Address</label>
+        <input type="text" class="form-control" id="email" placeholder="Email Address" name="email">
+
+
+        <label for="pratice">Practice Areas</label>
+        <input type="text" class="form-control" id="practice" placeholder="Please list your practice areas" name="income">
+
+
+        <label for="bar">Kentucky Bar Number</label>
+        <input type="text" class="form-control" id="bar" placeholder="KY Bar Number" name="purpose">
+
+
+        <label for="kba">Are you in good standing with the Kentucky Bar Association?</label>
+        <select id="kba" name="kba">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+
+        <label for="specific">Specific Project/Request</label>
+        <input type="text" class="form-control" id="specific" placeholder="If you are applying to be referred to a specific project/referral request, please list it here:" name="purpose">
+
+
+
+      <label for="mal">Do you have up-to-date malpractice liability insurance? </label>
+      <select id="mal" name="mal">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+      </select>
+
+      <label for="pub">Would you be interested in writing for future KyLA publications?</label>
+      <select id="pub" name="pub">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+      </select>
+
+      <label for="sem">Would you be interested in presenting at KyLA seminars?</label>
+      <select id="sem" name="sem">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+      </select>
+
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+  </div>
+
+<div id="footer">
+  <p>Kentucky Lawyers for the Arts</p>
+  <p><em>info@kylawyersforthearts.org</em></p>
 </div>
 
 </body>
