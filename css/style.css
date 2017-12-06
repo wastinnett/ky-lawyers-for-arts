@@ -7,6 +7,7 @@ body{
 }
 
 #header{
+  position: static;
   height:100px;
   border-style: none;
   padding-top: 25px;
@@ -23,6 +24,13 @@ body{
     text-align: center;
 }
 
+
+@media screen and (max-width: 1000px) {
+    ul li a {
+        font-size: 11px;
+    }
+}
+
 ul {
     top: 45px;
     list-style-type: none;
@@ -37,7 +45,7 @@ li {
 }
 
 li a {
-    display: flex;
+    display: run-in;
     color: black;
     font-size: 20px;
     font-weight: bold;
@@ -69,7 +77,7 @@ li a:hover {
 .box-about{
     width: 91%;
     background-color: #d3d3d3;
-    outline-style: solid;
+    outline-style: none;
     outline-color: black;
 }
 
