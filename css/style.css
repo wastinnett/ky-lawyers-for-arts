@@ -2,8 +2,8 @@ body{
   background-color: #d3d3d3;
   padding-top: 10px;
   padding-bottom: 50px;
-  margin-left: 80px;
-
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 #headernav{
