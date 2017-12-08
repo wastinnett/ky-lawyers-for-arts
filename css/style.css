@@ -26,7 +26,7 @@ body{
 
 @media screen and (max-width: 1000px) {
     ul li a {
-        font-size: 11px;
+        font-size: 20px;
     }
 }
 
